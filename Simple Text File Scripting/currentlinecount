@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ $# -lt 2 ]; then
+   echo "Insufficient number of arguements"
+   exit 1
+fi
+
+out="$1"
+date >> "$out"
+
+total=0
+
+shift
+
+for a in "$@"
+do
+  lines=$(wc -l < $a)
+  let total=total+lines
+  echo "$lines $a" >> "$out"
+done
+
+echo "$total total" >> "$out"
+
+exit 0
