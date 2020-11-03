@@ -12,8 +12,8 @@ Rationals Calculator: This calculator program is a simple line-oriented calculat
 
 ---
 
-Simple Text File Scripting: This folder contains bash scripts that perform simple functions with text documents.
+Simple Text File Scripting: This folder contains shell scripts that perform simple functions with text documents.
 
 ---
 
-Web Page Byte Size Finder: This folder contains a series of bash scripts that allow a user to determine the size of web pages in bytes. There is also a script that can parse an exisiting web page for clickable URL addresses.
+Web Page Byte Size Finder: This folder contains a series of shell scripts that allow a user to determine the size of web pages in bytes. There is also a script that can parse an exisiting web page for clickable URL addresses.
